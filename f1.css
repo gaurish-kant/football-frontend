@@ -5,9 +5,14 @@
     background-size: cover;
 }
 
+.cont1{
+    width: 100vw;
+    height: 15vh;
+}
+
 .hrnav{
     
-    width: 70px;
+    width: 60px;
     height: 8px;
 
     background: #B2F042;
@@ -105,10 +110,10 @@
 .place{
     box-sizing: border-box;
 
-
+    display: inline;
     width: 256px;
     height: 50px;
-   
+    font-size: 15px;
     padding-top: 0px;
     background: #0D0D0D;
     border: 1px solid #2E3539;
@@ -199,11 +204,13 @@
 
 
 
-
+.cont_main_1{
+    height: 67vh;
+}
 .cont2{
     margin-right: 10px;
     width: 23vw;
-    
+    overflow: auto;
     background: #F4F4F4;
     border-radius: 16px;
     height: auto;
@@ -230,8 +237,9 @@
 }
 
 .rect21{
-    margin-left: 20px;
-    margin-right: 19px;
+    margin-left: 15px;
+    margin-right: 15px ;
+    margin-top: 1px;
     width: 15%;
     height: 3%;
     
@@ -248,25 +256,24 @@
 }
 
 .text2{
-    margin-left: 34px;
     margin-right: 5px;
     padding-top: 7px;
     padding-bottom: 9px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 8.7107px;
+    font-size: 14px;
     color: #000000;
 }
 .text3{
     margin-left: 5px;
-    margin-right: 40px;
+    margin-right: 0px;
     padding-top: 7px;
     padding-bottom: 9px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 8.7107px;
+    font-size: 14px;
     color: #000000;
 }
 
@@ -306,14 +313,14 @@
 
 
 .cont3{
-    
+   
     width: 98%;
     background: #FFFFFF;
     border-radius: 16px;
 }
 .logo1{
-    width: 15%;
-    height: 10%;
+    width: 6rem;
+    
     
 }
 .head3{
@@ -370,17 +377,19 @@
     margin-right: 52.5px;
 }
 .cir{
-    
     color:#060606;
     border-radius: 40px;
-    
+    height: 60px;
+    width: 60px;
     background: rgba(31, 182, 34, 0.12);
     align-items: center;
+    text-align: center;
     font-size: 20px;
-    padding: 5px;
+    padding: 13px;
     border-style:solid;
     border-color: #1FB622;
     border-width: 5px;
+    margin-top: 10px;
 }
 
 .head7{
@@ -426,7 +435,7 @@
     font-size: 10.0507px;
     line-height: 17px;
     letter-spacing: 0.1em;
-    margin-left: 65px;
+    margin-left: 75px;
     text-align: center;
     color: #000000;
     margin-top: 0px;
@@ -438,7 +447,7 @@
     font-size: 14.0507px;
     line-height: 17px;
     letter-spacing: 0.1em;
-    margin-left: 80px;
+    margin-left: 90px;
     margin-top: 0px;
     color: #000000;
 }
@@ -471,35 +480,47 @@
 
 
 .cont4{
-    
+    height: 38vh;
     width: 98%;
     margin-top: 10px;
     text-align: center;
     background: #560617;
     border-radius: 21.0595px;
 }
-
+.sub_cont{
+    position: absolute;
+    top: 305px;
+    left: 555px;
+}
 .img1{
-    width: 78.97px;
-    height: 94.77px;
+    width: 3rem;
+    
     margin-top: 0px;
     align-items: center;
 }
 
 .img2{
-    width:210px;
-    height: 90vh;
+    width:22vw;
+    height: 30vh;
+    
+    border-radius: 21px;
+    margin-top: 28px;
+}
+.img3{
+   
+    height: 30vh;
+    width: 22vw;
+    margin-top: 28px;
+    
     border-radius: 21px;
 }
-
-
 .head12{
    
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 29px;
     margin-top: 5px;
     margin-bottom: 0px;
@@ -512,21 +533,14 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 100px;
-    font-size: 12.4271px;
+    font-size: 10.4271px;
     line-height: 120%;
     margin-top: 15px;
     margin-bottom: 30px;
     color: #FFFFFF;
 }
 
-.img3{
-   
-    
-    width:210px;
-    height: 90vh;
-    
-    border-radius: 21px;
-}
+
 
 
 
@@ -541,8 +555,8 @@
 
 
 .cont5{
-
-    width: 23%;
+    overflow: auto;
+    width: 22%;
     margin-left: 0px;
     background: #F4F4F4;
     border-radius: 16px;
@@ -599,7 +613,9 @@
 
 
 
-
+.cont_main_2{
+    height: 15vh;
+}
 .cont6{
     width: 24vw;
     background: #B2F042;
@@ -622,7 +638,7 @@
 }
 .cont9{
     width: 24vw;
-    
+  
     background: #B2F042;
     border-radius: 36px;
 }
